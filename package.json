@@ -2,7 +2,7 @@
   "name": "karma-ts-test-by-dts-file",
   "version": "1.0.0",
   "description": "karma-typescript test setup to test typescript projects with required JavaScript files by it d.ts files.",
-  "main": "index.js",
+  "main": "build/main.js",
   "repository": "https://github.com/ChristophAtAdlos/karma-ts-test-by-dts-file.git",
   "author": "Christoph Kuhn <christoph.kuhn@adlos.com>",
   "license": "MIT",
