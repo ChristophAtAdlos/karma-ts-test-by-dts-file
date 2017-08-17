@@ -1,0 +1,31 @@
+{
+  "name": "karma-ts-test-by-dts-file",
+  "version": "1.0.0",
+  "description": "karma-typescript test setup to test typescript projects with required JavaScript files by it d.ts files.",
+  "main": "index.js",
+  "repository": "https://github.com/ChristophAtAdlos/karma-ts-test-by-dts-file.git",
+  "author": "Christoph Kuhn <christoph.kuhn@adlos.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.12",
+    "@types/qunit": "^2.0.31",
+    "@types/sinon": "^2.3.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-karma": "^2.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "grunt-tslint": "^5.0.1",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-qunit": "^1.2.1",
+    "karma-sinon": "^1.0.5",
+    "karma-typescript": "^3.0.4",
+    "karma-typescript-es6-transform": "^1.0.2",
+    "qunit": "^1.0.0",
+    "sinon": "^2.3.8",
+    "sinon-qunit": "^2.0.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  }
+}
