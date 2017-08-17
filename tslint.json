@@ -1,0 +1,18 @@
+{
+	"comment": "https://palantir.github.io/tslint/rules/",
+
+	"extends": "tslint:latest",
+	"rules": {
+		"eofline": true,
+		"indent": [true, "spaces"],
+		"import-spacing": false,
+		"interface-name": false,
+		"linebreak-style": [true, "LF"],
+		"no-consecutive-blank-lines": false,
+		"no-console": false,
+		"no-bitwise": false,
+		"only-arrow-functions": [true, "allow-declarations"],
+		"quotemark": [true, "double", "avoid-escape"],
+                "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+	}
+}
