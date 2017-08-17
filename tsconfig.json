@@ -14,13 +14,14 @@
     "removeComments": false,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "allowJs": false,
+    "allowJs": true,
     "outDir": "temp/",
     "rootDir": "src/",
     "watch": false
   },
   "include": [
-    "src/*.ts"
+    "src/**/*.js",
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules"
