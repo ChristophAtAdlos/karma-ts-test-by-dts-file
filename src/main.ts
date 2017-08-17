@@ -12,7 +12,7 @@
 
 import { myLib } from "./lib/myLib";
 
-const multiplicator = new myLib.test.MyClass(5);
+const multiplicator: myLib.test.MyClass = new myLib.test.MyClass(5);
 console.log(
     "The product of",
     multiplicator.getMultiplicand(),
